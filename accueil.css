@@ -49,10 +49,11 @@ body{
 .bouton-projets:hover{
     background-color: aqua;
 }
-#carré-bleu {
+#illu-1 {
     width: 10%;
     height: 10%;
-    background-color: blue;
+    background-image: url('images/imageTest.jpg');
+    background-size: cover;
     display: none; 
     margin-top: 5%;
 }
