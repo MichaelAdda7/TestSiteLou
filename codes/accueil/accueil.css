@@ -49,3 +49,10 @@ body{
 .bouton-projets:hover{
     background-color: aqua;
 }
+#carré-bleu {
+    width: 10%;
+    height: 10%;
+    background-color: blue;
+    display: none; 
+    margin-top: 5%;
+}
