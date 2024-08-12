@@ -23,7 +23,7 @@ body{
 }
 #Lou-Urdaneta{
     margin-top: 10%;
-    margin-left:21.5%;
+    margin-left:15.5%;
     font-size: 800%;
     margin-bottom: -10%;
 }
@@ -50,10 +50,77 @@ body{
     background-color: aqua;
 }
 #illu-1 {
-    width: 10%;
-    height: 10%;
+    width: 12%;
+    height: 12%;
     background-image: url('images/imageTest.jpg');
     background-size: cover;
     display: none; 
     margin-top: 5%;
+}
+#illu-2 {
+    width: 12%;
+    height: 12%;
+    background-image: url('images/illu2.jpeg');
+    background-size: cover;
+    display: none; 
+    margin-top: 5%;
+}
+#illu-3 {
+    width: 12%;
+    height: 12%;
+    background-image: url('images/illu2.jpeg');
+    background-size: cover;
+    display: none; 
+    margin-top: 5%;
+}
+#illu-4 {
+    width: 12%;
+    height: 12%;
+    background-image: url('images/illu2.jpeg');
+    background-size: cover;
+    display: none; 
+    margin-top: 5%;
+}
+#illu-5 {
+    width: 12%;
+    height: 12%;
+    background-image: url('images/illu2.jpeg');
+    background-size: cover;
+    display: none; 
+    margin-top: 5%;
+}
+
+
+.thumbnail {
+    width: 150px;
+    cursor: pointer;
+}
+
+
+.modal {
+    display: none; 
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.9); 
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    height: 80%;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    cursor: pointer;
 }

@@ -5,18 +5,16 @@
   <meta charset="utf-8">
   <title>Lou Urdaneta</title>
 
-  <!-- Connexion aux polices Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-  
-  <!-- Lien vers la feuille de style CSS -->
+
   <link rel="stylesheet" href="accueil.css">
 </head>
 
 <body>
   <div>
-    <button id="bouton-contact">Contact</button>
+    <button id="bouton-contact" onclick="window.location.href='contact.html';">Contact</button>
     <button id="bouton-a-propos">A propos</button>
   </div>
 
@@ -29,18 +27,30 @@
   </div>
 
   <div id="boutons">
-    <button class="bouton-projets" id="bouton-1">First</button>
-    <button class="bouton-projets">Second</button>
-    <button class="bouton-projets">Third</button>
-    <button class="bouton-projets">Fourth</button>
-    <button class="bouton-projets">Fifth</button>
+    <button class="bouton-projets" id="bouton-1" onclick="afficherCarre(1)">First</button>
+    <button class="bouton-projets" id="bouton-2" onclick="afficherCarre(2)">Second</button>
+    <button class="bouton-projets" id="bouton-3" onclick="afficherCarre(3)">Third</button>
+    <button class="bouton-projets" id="bouton-4" onclick="afficherCarre(4)">Fourth</button>
+    <button class="bouton-projets" id="bouton-5" onclick="afficherCarre(5)">Fifth</button>
   </div>
 
- 
+  <div id="illu-1"><img src="images/imageTest.jpg" alt="Illu n°1" id="blue-image" class="thumbnail" onclick="agrandirImage(this.src)"></div>
+  
+  <div id="illu-2"><img src="images/illu2.jpeg" alt="Illu n°2" id="blue-image" class="thumbnail" onclick="agrandirImage(this.src)"></div>
 
-  <div id="illu-1"><img src="images/imageTest.jpg" alt="Illu n°1" id="blue-image"></div>
+  <div id="illu-3"><img src="images/illu2.jpeg" alt="Illu n°2" id="blue-image" class="thumbnail" onclick="agrandirImage(this.src)"></div>
 
-  <!-- Lien vers le fichier JavaScript -->
+  <div id="illu-4"><img src="images/illu2.jpeg" alt="Illu n°2" id="blue-image" class="thumbnail" onclick="agrandirImage(this.src)"></div>
+  
+  <div id="illu-5"><img src="images/illu2.jpeg" alt="Illu n°2" id="blue-image" class="thumbnail" onclick="agrandirImage(this.src)"></div>
+  
+  
+  <div id="modal" class="modal" onclick="fermerModal()">
+    <span class="close">&times;</span>
+    <img id="image-agrandie" class="modal-content">
+  </div>
+
+
   <script src="accueil.js"></script>
 </body>
 
