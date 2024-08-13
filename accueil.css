@@ -7,6 +7,7 @@ body{
     border-radius: 20% / 50%;
     height: 10%;
     padding-right: 6%;
+    cursor: pointer;
 }
 #bouton-contact:hover{
     background-color: aquamarine;
@@ -17,6 +18,7 @@ body{
     border-radius: 20% / 50%;
     height: 10%;
     padding:0.5%;
+    cursor: pointer;
 }
 #bouton-a-propos:hover{
     background-color: aquamarine;
@@ -39,12 +41,8 @@ body{
     margin-right: 5%;
     width: 14.5%;
     padding: 1%;
-}
-.bouton-projets{
-    margin-right: 5%;
-    width: 14.5%;
-    padding: 1%;
    border-radius: 35;
+   cursor: pointer;
 }
 .bouton-projets:hover{
     background-color: aqua;
