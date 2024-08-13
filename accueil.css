@@ -41,15 +41,19 @@ body{
 .bouton-projets{
     margin-right: 5%;
     width: 14.5%;
-    padding: 1%;
+    padding: 0.7%;
    border: dashed 2px blue;
    cursor: pointer;
    border-radius: 10% / 50%;
    border: 1%;
+   color: blue;
+   background-color: white;
+   font-size: medium;
 
 }
 .bouton-projets:hover{
-    background-color: aqua;
+    font-style: italic;
+    color:rgb(255, 102, 0);
 }
 #illu-1 {
     width: 12%;
