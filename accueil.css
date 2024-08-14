@@ -40,15 +40,16 @@ body{
 }
 .bouton-projets{
     margin-right: 5%;
-    width: 14.5%;
+    width: 12%;
     padding: 0.7%;
-   border: dashed 2px blue;
+   border: dashed 2px rgb(28, 69, 252);
    cursor: pointer;
-   border-radius: 10% / 50%;
+   border-radius: 15% / 50%;
    border: 1%;
    color: blue;
    background-color: white;
-   font-size: medium;
+   font-size: 130%;
+   border-width: 2.5px;   
 
 }
 .bouton-projets:hover{
