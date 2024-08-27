@@ -1,6 +1,7 @@
 body{
     font-family:"Poppins", sans-serif;
     color: blue;
+    margin: 5%;
 }
 #bouton-contact{
     padding:0.5%;
@@ -26,7 +27,7 @@ body{
 }
 #Lou-Urdaneta{
     margin-top: 10%;
-    margin-left:15.5%;
+    margin-left:16.5%;
     font-size: 800%;
     margin-bottom: -10%;
 }
@@ -35,11 +36,25 @@ body{
     text-align: center;
 }
 #boutons{
-    margin-left:5%;
+    margin-left:5.5%;
 
 }
 .bouton-projets{
-    margin-right: 5%;
+    margin-right: 8%;
+    width: 12%;
+    padding: 0.7%;
+   border: dashed 2px rgb(28, 69, 252);
+   cursor: pointer;
+   border-radius: 15% / 50%;
+   border: 1%;
+   color: blue;
+   background-color: white;
+   font-size: 130%;
+   border-width: 2.5px;   
+
+}
+.bouton-projets-bis{
+   
     width: 12%;
     padding: 0.7%;
    border: dashed 2px rgb(28, 69, 252);
